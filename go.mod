@@ -1,4 +1,4 @@
-module github.com/pgulb/termrpg_api
+module github.com/pgulb/voltageware_api
 
 go 1.22.0
 
