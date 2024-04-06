@@ -28,7 +28,7 @@ type Register struct {
 
 func loadMongoString() string {
 	// loading MongoDB connection string from MONGO_CONN
-	// first is checked enviironment var, then .env
+	// first is checked environment var, then .env
 	if mng := os.Getenv("MONGO_CONN"); mng != "" {
 		return mng
 	}
